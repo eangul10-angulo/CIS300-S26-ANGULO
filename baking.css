@@ -1,0 +1,91 @@
+/* Color variables */
+:root{
+  --text: #050315;
+  --background: #fbfbfe;
+  --primary: #f1dcfb;
+  --secondary: #934db5;
+  --accent: #fbf8b0;
+}
+
+/* Global styles */
+body{
+  background-color: var(--background);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styles */
+header{
+  background-color: var(--primary);
+  color: var(--text);
+  padding: 1em;
+}
+
+/* Navigation styles */
+nav{
+  background-color: var(--accent);
+  font-weight: bold;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+/* Page title */
+h1{
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+}
+
+/* Section heading */
+h2{
+  color: var(--secondary);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Description term */
+dt{
+  color: var(--text);
+  font-weight: bold;
+}
+
+/* Highlighted site name (used via <span class="brand">Emily's Little Bakery</span>) */
+.brand{
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+#wrapper{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  min-width: 960px;
+  max-width: 2048px;
+  box-shadow: 3px 3px #333333;
+}
+
+#homehero{
+  height: 300px;
+  background-image: url(cake.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#abouthero{
+  height: 300px;
+  background-image: url(flower.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#recipeshero{
+  height: 300px;
+  background-image: url(cookie.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#tipshero{
+  height: 300px;
+  background-image: url(flag.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
