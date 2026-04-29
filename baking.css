@@ -53,6 +53,97 @@ dt{
   font-weight: bold;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fbfbfe;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #fbf8b0;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+th {
+  background-color: #fbf8b0;
+  color: #050315;
+}
+
+section {
+  background-color: var(--primary);
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 6px solid var(--secondary);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+  margin-top: 0;
+  color: var(--secondary);
+}
+
+section p {
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+section ol {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+form {
+  background-color: var(--accent);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+label {
+  font-weight: bold;
+  color: var(--text);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: var(--secondary);
+  color: var(--background);
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--accent);
+  color: var(--text);
+}
+
+video{
+  display: block;
+  margin: 1em auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text)
+}
+
+nav a:hover {
+  color: var(--secondary)
+}
+
 #wrapper{
   width: 80%;
   margin: 0 auto;
@@ -65,27 +156,31 @@ dt{
 #homehero{
   height: 300px;
   background-image: url(cake.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 #abouthero{
   height: 300px;
   background-image: url(flower.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 #recipeshero{
   height: 300px;
-  background-image: url(cookie.jpg);
-  background-size: 100% 100%;
+  background-image: url(choccookie.jpg);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 #tipshero{
   height: 300px;
-  background-image: url(flag.jpg);
-  background-size: 100% 100%;
+  background-image: url(measure.jpg);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }

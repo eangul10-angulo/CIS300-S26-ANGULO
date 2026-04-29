@@ -3,6 +3,8 @@
 
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Emily's Little Bakery is a home baking blog where Emily shares her favorite recipes, baking tips, and sweet treats. Join her in the kitchen for delicious fun!">
         <title>Emily's Little Bakery :: Baking Tips</title>
         <link rel="stylesheet" type="text/css" href="baking.css">
     </head>
@@ -11,12 +13,12 @@
     <div id="wrapper">
         <header><h1>Emily's Little Bakery</h1></header>
 
-        <nav>
+       <nav>
             <b>
                 <a href="index.html">Home</a>&nbsp;&nbsp;
                 <a href="about.html">About Me</a>&nbsp;&nbsp;
                 <a href="recipes.html">Recipes</a>&nbsp;&nbsp;
-                <a href="tips.html">Baking Tips</a>
+                <a href="tips.html">Baking Tips</a>&nbsp;&nbsp;
             </b>
         </nav>
 
@@ -24,16 +26,58 @@
 
         <main>
             <h2>Baking Tips</h2>
+            <p>Baking gets a lot easier when you start with a few simple habits that make every recipe more predictable. Using room-temperature ingredients helps everything mix more smoothly and creates a more even texture. Before you start baking, read the entire recipe so you don't get caught off guard by chill times or missing ingredients. And always make sure your oven is fully preheated, consistent heat is key for proper rising and baking, especially since many ovens run a little hotter or cooler than the dial suggests.</p>
 
-            <h3>Measuring Ingredients</h3>
-            <p>Use dry measuring cups for flour and wet measuring cups for liquids. Level off dry ingredients with a knife for accuracy.</p>
+            <section>
+                <h3>Comparison Video</h3>
 
-            <h3>Tools</h3>
-            <p>Keep a digital scale, good quality pans, and a reliable oven thermometer for consistent results.</p>
+                <div class="video-section">
+                    <p>These are my Classic Chocolate Chip Cookies baking in the oven, and it's the perfect example of what your cookies should look like as they spread, rise, and turn golden. It also shows how far apart you should place each scoop of dough so they have enough room to bake evenly without merging together. Most importantly, you can see exactly how the cookies should look once they're fully baked, soft in the center, lightly browned on the edges, and perfectly set on top.</p>
+            
+                    <video controls poster="cake.jpg" width="300">
+                        <source src="baking.mp4" type="video/mp4">
+                        <a href="baking.mp4">Download the video</a>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
+
+            <section>
+                <h3>Tools</h3>
+                <p>Keeping a few reliable tools on hand makes baking so much easier. A digital scale helps you measure ingredients accurately, good-quality pans ensure even baking, and a reliable oven thermometer lets you know your oven's true temperature so your treats bake exactly the way they should.</p>
+            </section>
+
+                <h2>Share Your Baking Tips</h2>
+                <p>Have a favorite baking tip or question? Fill out the form below!</p>
+        
+                <form action="#" method="post">
+
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" required><br><br>
+
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="favorite">Favorite Dessert:</label><br>
+                    <input type="text" id="favorite" name="favorite"><br><br>
+                    <label for="tips">Your Baking Tip:</label><br>
+                    <textarea id="tips" name="tips" rows="4" cols="40"></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            
+        
         </main>
 
         <footer>
-            <small><i>Copyright © 2026 Emily's Little Bakery </i></small>
+            <small><i>
+                Copyright © 2026 Emily's Little Bakery<br>
+                <a href="mailto:emily@angulo.com">Emily Angulo</a>
+            </i></small>
         </footer>
     </div>
     </body>
